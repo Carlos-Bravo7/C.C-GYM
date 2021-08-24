@@ -1,0 +1,52 @@
+body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+}
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body * {
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+.form .formField {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+body: {
+	display: flex;
+}
+
+#loginPage, #registerPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form input[type=text], .form input[type=password] {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 0.8em;
+}
+
+
+.centeredH {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
