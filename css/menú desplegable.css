@@ -1,3 +1,28 @@
+.clientes-contenedor{
+	padding: 0px 0px 50px 0px;
+}
+
+
+.subtitulo{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+.menu{
+	padding: 20px 0px 30px 0px;
+}
+
+.menu-clases h1{
+	color: #DD0707;
+	padding: 0px 0px 10px 0px;
+	font-size: 50px;
+}
+
+.menu-clases h2{
+	padding: 0px 0px 0px 10px;
+}
+
 ul.acorh * {
 margin: 0;
 padding: 0;

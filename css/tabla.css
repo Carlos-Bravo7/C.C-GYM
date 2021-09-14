@@ -1,0 +1,70 @@
+table th{
+	width: 10em;
+	padding: 30px;
+
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.tabla{
+	padding: 10px 0px 50px 40px;
+}
+
+.the-first > th{
+	background-color: orange;
+
+}
+
+.second{
+ background-color: #CBCACA;
+
+}
+
+.third{
+background-color: #CBCACA;
+}
+
+.fourth{
+background-color: #CBCACA;
+}
+
+.fifth{
+background-color: #CBCACA;
+}
+
+.sixth{
+background-color: #CBCACA;
+}
+
+.seventh{
+background-color: #CBCACA;
+}
+
+.eight{
+background-color: #CBCACA;
+}
+
+.noveno{
+background-color: #CBCACA;
+}
+.decimo{
+background-color: #CBCACA;
+}
+
+.onceavo{
+background-color: #CBCACA;
+}
+
+.doceavo{
+background-color: #CBCACA;
+}
+
+.treceavo{
+background-color: #CBCACA;
+}
+
+.catorceavo{
+background-color: #CBCACA;
+}
