@@ -50,3 +50,7 @@ body: {
 	justify-content: center;
 	align-items: center;
 }
+
+.centeredH a{
+	text-decoration: none;
+}
