@@ -10,6 +10,30 @@
 	border-radius: 22px;
 	position: absolute;
 	left: 37%;
-	top: 175%;
+	top: 205%;
 	display: none;
+}
+
+.cerrar{
+	position: absolute;
+	right: 5px;
+	top: 1px;
+}
+
+.emerge h2{
+	text-align: center;
+}
+
+.emerge .b1{
+	width: 70px;
+	height: 30px;
+	top: 20px;
+	left: 10px;
+}
+
+.emerge .b2{
+	width: 70px;
+	height: 30px;
+	top: 20px;
+	left: 10px;
 }

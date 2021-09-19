@@ -68,3 +68,7 @@ background-color: #CBCACA;
 .catorceavo{
 background-color: #CBCACA;
 }
+
+* td{
+	text-align: center;
+}
