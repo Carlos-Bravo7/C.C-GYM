@@ -1,0 +1,15 @@
+.emerge{
+	background: #FEA027;
+	width: 30%;
+	color: rgba(255, 255, 255, 1.0);
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	padding: 33px;
+	min-height: 250px;
+	border-radius: 22px;
+	position: absolute;
+	left: 37%;
+	top: 175%;
+	
+}
