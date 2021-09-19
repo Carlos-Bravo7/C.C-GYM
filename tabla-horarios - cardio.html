@@ -46,8 +46,8 @@
 				<tr>
 					<th class="third">9:00 AM - 10:00 AM</th>
 					<td></td>
-					<td></td>
-					<td><div class="emerge"></div></td>
+					<td><a href="javascript:abrir()">abrir</a></td>
+					<td><div class="emerge" id="vent"></div></td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -171,5 +171,10 @@
 		</div>
 		<h2 class="titulo-final">&copy; El Gym</h2>
 	</footer>
+	<script type="text/javascript">
+		function abrir() {
+			document.getElementById('vent').emergente.display="block"
+		}
+	</script>
 </body>
 </html>
