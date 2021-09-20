@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clases personalizadas</title>	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/boton-suscripcion.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.26/Tone.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="acerca-de-nosotros.html">Acerca de</a>
+			<a href="contactos.html">Contacto</a>
+			<a href="iniciar-sesion.html">Iniciar sesión</a>
+		</nav>
+		<section class="textos-header">
+			<h1>Clases personalizadas</h1>
+			<h2>y con quienes las puedes ver</h2>
+		</section>
+		<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FFF;"></path></svg></div>
+	</header>
+	<main>
+	<section class="piano">
+		<div id='container'></div>
+
+		<script>
+			var synth = new Tone.polySynth().toMaster()
+			var notes = ['C','D','E','F','G','A''B'];
+			var html = "";
+			for (var i = 0; i < notes.length; i++) {
+				var note = notes [i];
+				html += `<div class='whitenote' onmousedown='noteDown (this)' data-note='${note}'></div>`;
+			}
+
+			document.getElementById('container'). innerHTML = html;
+			function noteDown(elem){
+				var note = elem.dataset.note;
+				//alert(note);
+				synth.triggerAttackRelease(note,"16n")
+			}
+		</script>
+	</section>
+	</main>
+	<footer>
+		<div class="contenedor-footer">
+			<div class="content-foo">
+				<h4>Telefono</h4>
+				<p>76876868687665765775</p>
+			</div>
+			<div class="content-foo">
+				<h4>Ubicacion</h4>
+				<p>76876868687665765776</p>
+			</div>
+			<div class="content-foo">
+				<h4>Email</h4>
+				<p>elgimnasio@gmail.com</p>
+			</div>
+		</div>
+		<h2 class="titulo-final">&copy; El Gym</h2>
+	</footer>
+</body>
+</html>

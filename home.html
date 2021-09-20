@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Página del gimnasio</title>	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/contador.css">
 </head>
 <body>
 	<header>
@@ -97,20 +98,37 @@
 			</div>
 		</section>
 		<section class="clientes-contenedor">
-			<h2 class="titulo">Complementa tu vida saludable con:</h2>
+			<h2 class="titulo">ACTIVIDAD ESPECIAL DEL MES</h2>
 			<div class="cards">
 				<div class="card">
-				<img src="imagenes/ejercicio en casa.jpg">
+				<img src="imagenes/zumba.jpg">
 				<div class="contenido-texto-card">
-					<h4>Hacer ejercicio en casa</h4>
-					<p>A veces hacer ejercicio solamente en el gimnasio no es suficiente para tener una buena condición fisica. Para esto tambien es bueno completar el ejercicio en casa, no tiene que ser mucho pero si lo suficiente como para estar activo</p>
+					<h4>MASTERCLASS ESPECIAL</h4>
+					<p>Sábado 25 de septiembre / Hora 10:00AM<br>
+					<br>
+					¡No te pierdas nuestra clase especial de zumba!. Lleva tu cuerpo al límite junto a @tatiana.zumba. Te invitamos a bailar con más emoción en nuestra primera clase especial</p>
 				</div>
 				</div>
 				<div class="card">
-				<img src="imagenes/alimentación saludable.jpg">
+				<img src="imagenes/entrenador3.jpg">
 				<div class="contenido-texto-card">
-					<h4>Buena alimentación</h4>
-					<p>Tener una buena alimentación tambien es una parte crucial para tener una vida saludable, al comer bien junto a una buena rutina de ejercicios es la clave de una vida con buena salud</p>
+					<h4>Inscríbete AHORA MISMO</h4>
+					<p>Son 50 cupos y ya van inscritos</p>
+					<div>
+				       <input id="demo-input" value="0">
+				     </div>
+				     <script src="js/anime.min.js"></script>
+				      <script>
+				        anime({
+				          targets:'#demo-input',
+				          value: [0,42],
+				          duration:7000,
+				          round: 1,
+				          easing: 'linear',
+				          direction: 'alternate',
+				          loop: false
+				        });
+				      </script>
 				</div>
 				</div>
 			</div>

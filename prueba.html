@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Suscripciones</title>  
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/boton-suscripcion.css">
+  <link rel="stylesheet" type="text/css" href="css/contador.css">
+  <script type="text/javascript" src="js/howler.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="acerca-de-nosotros.html">Acerca de</a>
+      <a href="contactos.html">Contacto</a>
+      <a href="iniciar-sesion.html">Iniciar sesión</a>
+      <script type="text/javascript" src="js/howler.js"></script>
+    </nav>
+    <section class="textos-header">
+      <h1>Suscripciones al gimnasio</h1>
+      <h2>y que brindan</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FFF;"></path></svg></div>
+  </header>
+  <main>
+    <section class="anime">
+
+      <div>
+        <input id="demo-input" value="0">
+      </div>
+      <div class=".square"></div>
+      <script src="js/anime.min.js"></script>
+      <script>
+        anime({
+          targets:'#demo-input',
+          value: [0,42],
+          duration:7000,
+          round: 1,
+          easing: 'linear',
+          direction: 'alternate',
+          loop: false
+        });
+      </script>
+    </section>   
+  </main>
+  <footer>
+    <div class="contenedor-footer">
+      <div class="content-foo">
+        <h4>Telefono</h4>
+        <p>76876868687665765775</p>
+      </div>
+      <div class="content-foo">
+        <h4>Ubicacion</h4>
+        <p>76876868687665765776</p>
+      </div>
+      <div class="content-foo">
+        <h4>Email</h4>
+        <p>elgimnasio@gmail.com</p>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; El Gym</h2>
+  </footer>  
+</body>
+</html>
+
+
