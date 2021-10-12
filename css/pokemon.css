@@ -1,3 +1,18 @@
+header{
+  width: 100%;
+  height: 600px;
+  background: #1a2a6c80; 
+   /* fallback for old browsers */
+  background: linear-gradient(to right, #fdbb2d80, #b21f1f80, #1a2a6c80), url('../imagenes/pokemon.PNG');
+   /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d80, #b21f1f80, #1a2a6c80), url('../imagenes/pokemon.PNG'); 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
 .contenedor_batalla{
   display:flex;
   justify-content:space-around;
