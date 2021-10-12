@@ -1,0 +1,9 @@
+.contenedor_batalla{
+	border: 1px solid black;
+	background: grey;
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	margin: 0 auto;
+		
+}
