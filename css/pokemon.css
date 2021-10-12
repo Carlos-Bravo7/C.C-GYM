@@ -1,17 +1,16 @@
-body{
-  background: #224DBF;
-}
 .contenedor_batalla{
   display:flex;
   justify-content:space-around;
   width:500px;
   margin:0 auto;
+  padding-bottom: 30px;
 }
 
-p{
+.versus{
   font-family:impact;
-  font-size:44px;
+  font-size:50px;
   color:#F2CB05;
+  margin-top: 65px;
 }
 
 .animal{
