@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/pruebap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pruebap.css">
+</head>
+<body>
+     <div class="versus" id="vs">
+        <div class="descripcion">
+            <h1> Batalla pokemon </h1>
+            <p> Haz click en el boton de abajo para poder crear otra batalla pokemon</p>
+            <input type="button" value="Combate" onclick="combatep()">
+        </div>
+        <div class="visualizacion">            
+            <div class="pokemon1" id="f">
+                <img src="../img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="poke1" onclick="tipo()">
+                <p id="nombre1"> Name </p>
+                <div class="type">
+                    <p class="t" id="tipo1"> tipo </p>
+                    <p class="t" id="vida1"> HP </p>
+                    <p class="t" id="ataque1"> Ataque </p>
+                    <p class="t" id="defensa1"> Defensa </p>
+                    <p class="t" id="ataqueesp1"> Ataqueesp </p>
+                    <p class="t" id="defensaesp1"> Defensaesp </p>
+                    <p class="t" id="velocidad1"> velocidad</p>
+                </div>
+            </div>
+            <h1> VS </h1>
+            <div class="pokemon2" id="f2">
+                <img src="../img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="poke2">
+                <p id="nombre2"> Name </p>
+                <div class="type">
+                    <p class="t" id="tipo2"> tipo </p>
+                    <p class="t" id="vida2"> HP </p>
+                    <p class="t" id="ataque2"> Ataque </p>
+                    <p class="t" id="defensa2"> Defensa </p>
+                    <p class="t" id="ataqueesp2"> Ataqueesp </p>
+                    <p class="t" id="defensaesp2"> Defensaesp </p>
+                    <p class="t" id="velocidad2"> velocidad</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

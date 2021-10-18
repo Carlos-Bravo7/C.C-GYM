@@ -16,17 +16,85 @@ header{
 .contenedor_batalla{
   display:flex;
   justify-content:space-around;
-  width:500px;
+  width:100%;
   margin:0 auto;
+  margin-bottom: 70px;
   padding-bottom: 70px;
-  padding-top: 70px;
-  background-color: #D3CDC5 ;
+  padding-top: 20px;
+  background-color: #D4E015;
+
+}
+
+.descripcion h1{
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+
+.descripcion p{
+  text-align: left;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.descripcion{
+  padding-bottom: 20px;
+}
+
+.combate{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  background-color: #E04315;
+}
+
+.pokemon1{
+  margin-top: 50px;
+  border: 1;
+  padding-right: 50px;
+  padding-left: 70px;
+  margin-left: 150px;
+  margin-right: 70px;
+  background-color: #216DDE;
+  width: 300px;
+  height: 400px;
+}
+
+.img1{
+  width: 150px;
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.img2{
+  padding-bottom: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.pokemon2{
+  text-align: center;
+  border: 1;
+  margin-top: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+  border-color: #000000;
+  margin-left: 50px ;
+  margin-right: 350px ;
+  background-color: #216DDE;
+  width: 500px;
+  height: 400px;
+}
+
+.combate h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
 }
 
 .versus{
   font-family:impact;
-  font-size:50px;
-  color:#F2CB05;
+  font-size:10px;
+  color:#000000;
   margin-top: 65px;
 }
 
@@ -41,6 +109,7 @@ header{
 
 .animal img{
   margin-top:30px;
+  text-align: center;
 }
 
 .animal label{
@@ -48,4 +117,15 @@ header{
   text-transform:uppercase;
   color:beige;
   font-size:20px;
+}
+
+.button{
+  padding: 20px;
+  background-color: #FFA729;
+}
+
+.combate p{
+  font-size: 15px;
+  text-align: center;
+
 }

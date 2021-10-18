@@ -1,0 +1,14 @@
+.visualizacion{
+  display:flex;
+  justify-content:space-around;
+  width:500px;
+  margin:0 auto;
+}
+
+.pokemon1{
+    background-color: greenyellow;
+}
+
+.pokemon2{
+    background-color: greenyellow;
+}
