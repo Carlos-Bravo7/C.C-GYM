@@ -21,13 +21,15 @@ header{
   margin-bottom: 70px;
   padding-bottom: 70px;
   padding-top: 20px;
-  background-color: #D4E015;
+  background-color: #FFFFFF;
 
 }
 
 .descripcion h1{
   font-size: 70px;
+  padding-top: 250px;
   padding-bottom: 20px;
+  color: #FF0000;
 }
 
 .descripcion p{
@@ -128,4 +130,9 @@ header{
   font-size: 15px;
   text-align: center;
 
+}
+
+.img_prin{
+  width: 1000px;
+  height: 150px;
 }
